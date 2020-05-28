@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Mini Whatsapp</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><i class="fab fa-whatsapp fa-2x"></i>&nbsp;Mini Whatsapp</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username" style="font-size: 25px;">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter Your Name"
+							required
+						/>
+					</div>
+					<br>
+					<div class="form-control">
+						<label for="room" style="font-size: 25px;">Group</label>
+						<select name="room" id="room">
+							<option value="4 Topi Wale">4 Topi Wale</option>
+							<option value="3 Topi Wale">3 Topi Wale</option>
+							<option value="JDMR Intern">JDMR Intern</option>
+							<option value="Covid News">Covid News</option>
+							<option value="Trip">Trip</option>
+							<option value="Friends">Friends</option>
+						</select>
+					</div>
+					<br>
+					<br>
+					<br>
+					<button type="submit" class="btn">Join Group</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
